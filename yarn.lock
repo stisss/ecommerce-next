@@ -473,6 +473,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/client@npm:5.22.0":
+  version: 5.22.0
+  resolution: "@prisma/client@npm:5.22.0"
+  peerDependencies:
+    prisma: "*"
+  peerDependenciesMeta:
+    prisma:
+      optional: true
+  checksum: 2a4db1e631528644ad8e726f26fbbcd692fbf3483a872185797cc34ba2531d17288841d7fa753439da29937706d7cd515fa1fc06f01b9e375c2232e2943c169e
+  languageName: node
+  linkType: hard
+
 "@prisma/debug@npm:5.22.0":
   version: 5.22.0
   resolution: "@prisma/debug@npm:5.22.0"
@@ -3848,6 +3860,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shop@workspace:."
   dependencies:
+    "@prisma/client": 5.22.0
     "@types/node": ^20
     "@types/react": ^18
     "@types/react-dom": ^18

@@ -40,3 +40,13 @@ yarn-error.log*
 next-env.d.ts
 .vscode
 .yarnrc.yml
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Prisma
+/prisma/*.db
+/prisma/migrations/
